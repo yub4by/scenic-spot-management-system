@@ -1,0 +1,53 @@
+html {
+	SCROLLBAR-FACE-COLOR: #538ec6;
+	SCROLLBAR-HIGHLIGHT-COLOR: #dce5f0;
+	SCROLLBAR-SHADOW-COLOR: #2c6daa;
+	SCROLLBAR-3DLIGHT-COLOR: #dce5f0;
+	SCROLLBAR-ARROW-COLOR: #2c6daa;
+	SCROLLBAR-TRACK-COLOR: #dce5f0;
+	SCROLLBAR-DARKSHADOW-COLOR: #dce5f0;
+	overflow-x: hidden;
+	/* overflow-y: hidden; */
+	
+	
+	/* 设置滚动条的样式 */::-webkit-scrollbar { width: 12px;}/* 滚动槽 */::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); border-radius: 10px;}/* 滚动条滑块 */::-webkit-scrollbar-thumb { border-radius: 10px; background: rgba(0,0,0,0.1); -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);}::-webkit-scrollbar-thumb:window-inactive { background: rgba(255,0,0,0.4);}
+}
+
+body {
+	overflow-x: hidden;
+	width: 160px;
+	/* overflow-y: scroll; */
+	
+	/* ::-webkit-scrollbar {
+	   width: 0;
+	}
+	::-webkit-scrollbar:horizontal 
+	{
+	   height: 0;
+	} */
+	
+	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar
+{
+    width: 16px;
+    height: 16px;
+    background-color: #F5F5F5;
+}
+ 
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+ 
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+ 
+}

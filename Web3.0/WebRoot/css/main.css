@@ -1,0 +1,142 @@
+/*main_contact*/
+html {
+	SCROLLBAR-FACE-COLOR: #538ec6;
+	SCROLLBAR-HIGHLIGHT-COLOR: #dce5f0;
+	SCROLLBAR-SHADOW-COLOR: #2c6daa;
+	SCROLLBAR-3DLIGHT-COLOR: #dce5f0;
+	SCROLLBAR-ARROW-COLOR: #2c6daa;
+	SCROLLBAR-TRACK-COLOR: #dce5f0;
+	SCROLLBAR-DARKSHADOW-COLOR: #dce5f0;
+	overflow-x: hidden;
+}
+
+.main_contact1 {
+	float: left;
+}
+
+.main_images {
+	border: 1px #cccccc solid;
+	padding: 2px;
+}
+
+.main_changes {
+	background: #ededb2;
+	padding: 4px 0;
+}
+
+.main_about {
+	padding: 0 10px;
+	float: left;
+}
+
+.main_kuang {
+	background: url(../images/bg1.jpg) repeat-x top left;
+	font-weight: bold;
+}
+
+.main_nav_bg {
+	background: url(../images/contact_bg.jpg) repeat-x;
+	height: 25px;
+	padding-top: 2px;
+	float: left;
+}
+
+.main_td1 {
+	background: url(../images/copybg.jpg) no-repeat left;
+	height: 44px;
+	color: #bb1414;
+	text-align: left;
+	padding: 17px 0 0 22px;
+}
+
+a.main_td2:link,a.main_td2:visited {
+	color: #666666
+}
+
+a.main_td2:hover,a.main_td2:active {
+	color: #bb1414
+}
+
+body {
+	overflow-x: hidden;
+	background: #f2f0f5;
+	padding: 15px 0px 10px 5px;
+}
+
+#main {
+	font-size: 12px;
+}
+
+#main span.time {
+	font-size: 14px;
+	color: #528dc5;
+	width: 100%;
+	padding-bottom: 10px;
+	float: left
+}
+
+#main div.top {
+	width: 100%;
+	background: url(../images/main/main_r2_c2.jpg) no-repeat 0 10px;
+	padding: 0 0 0 15px;
+	line-height: 35px;
+	float: left
+}
+
+#main div.sec {
+	width: 100%;
+	background: url(../images/main/main_r2_c2.jpg) no-repeat 0 15px;
+	padding: 0 0 0 15px;
+	line-height: 35px;
+	float: left
+}
+
+.left {
+	float: left
+}
+
+#main div a {
+	float: left
+}
+
+#main span.num {
+	font-size: 30px;
+	color: #538ec6;
+	font-family: "Georgia", "Tahoma", "Arial";
+}
+
+.left {
+	float: left
+}
+
+div.main-tit {
+	font-size: 14px;
+	font-weight: bold;
+	color: #4e4e4e;
+	background: url(../images/main/main_r4_c2.jpg) no-repeat 0 33px;
+	width: 100%;
+	padding: 30px 0 0 20px;
+	float: left
+}
+
+div.main-con {
+	width: 100%;
+	float: left;
+	padding: 10px 0 0 20px;
+	line-height: 36px;
+}
+
+div.main-corpy {
+	font-size: 14px;
+	font-weight: bold;
+	color: #4e4e4e;
+	background: url(../images/main/main_r6_c2.jpg) no-repeat 0 33px;
+	width: 100%;
+	padding: 30px 0 0 20px;
+	float: left
+}
+
+div.main-order {
+	line-height: 30px;
+	padding: 10px 0 0 0;
+}
